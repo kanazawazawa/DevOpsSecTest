@@ -4,6 +4,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  security-events: write
+  id-token: write
+
 jobs:
   sample:
     name: Microsoft Security DevOps
